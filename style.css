@@ -769,11 +769,18 @@ nav {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 630px) {
     .page-videos iframe {
-        width:256px !important;
-        height: 144px;
+        width:560px !important;
+        height: 314px;
         display: flex;
         align-items: center;
+    }
+}
+@media (max-width: 412px) {
+    .page-videos iframe {
+        width:90% !important;
+        height: 110%;
+     
     }
 }
