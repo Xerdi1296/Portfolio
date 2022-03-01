@@ -11,14 +11,9 @@ body {
 .body-home {
     background-color: rgb(78, 78, 78);
     margin: auto;
-
     padding-bottom: 120px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    background: rgb(98, 98, 98);
-   
+    background: rgba(98, 98, 98, 0);
+    background: linear-gradient(180deg, rgb(98, 98, 98) 0%, rgb(66, 66, 66) 100%);
 }
 
 .body-videos {
@@ -26,9 +21,9 @@ body {
     width: 100%;
     padding-bottom: 120px;
     background-size: cover;
-    background-position: top;
-    background: rgb(98, 98, 98);
-    background: linear-gradient(180deg, rgba(98, 98, 98, 1) 0%, rgba(79, 79, 79, 1) 100%);
+    background-position: bottom;
+    background: linear-gradient(180deg, rgb(98, 98, 98) 0%, rgb(66, 66, 66) 100%);
+   
 }
 
 .body-3dart {
@@ -51,7 +46,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     background: rgb(98, 98, 98);
-    background: linear-gradient(180deg, rgba(98, 98, 98, 1) 0%, rgba(79, 79, 79, 1) 100%);
+    background: linear-gradient(180deg, rgb(98, 98, 98) 0%, rgb(66, 66, 66) 100%);
 
 
 }
@@ -85,9 +80,7 @@ body {
 
 
 
-hr {
-
-    border-style: inset;
+hr { 
     border-width: 1px;
     margin: 0px auto;
     width: 99%;
@@ -230,7 +223,7 @@ footer {
 
 .navbar-nav {
     font-size: 45px;
-    background-color: rgb(65, 65, 65);
+    background: linear-gradient(180deg, rgb(61, 61, 61) 0%, rgb(83, 83, 83) 100%);
 
 }
 
@@ -745,10 +738,10 @@ nav {
 @media (max-width: 400px) {
     button{
         font-size: 10px;
-        letter-spacing: 1px;
-        padding: 20px;
-        border-radius: 10px;
-        margin: -1px;  
+        letter-spacing: 2px;
+        padding: 3px;
+        border-radius: 5px;
+     
     }
 }
 
