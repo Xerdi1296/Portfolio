@@ -22,12 +22,12 @@ aside {
 
 body {
     background-color: rgb(78, 78, 78);
-
     padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    background: linear-gradient(180deg, rgb(98, 98, 98) 0%, rgb(66, 66, 66) 100%);
 }
 
 .body-home {
@@ -44,16 +44,17 @@ body {
     width: 100%;
     padding-bottom: 120px;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: bottom;
     background: linear-gradient(180deg, rgb(98, 98, 98) 0%, rgb(66, 66, 66) 100%);
 
 }
 
-.body-3dart {
+.body-art {
     margin: auto;
     width: 100%;
     padding-bottom: 120px;
-    background: linear-gradient(180deg, rgb(98, 98, 98) 0%, rgb(66, 66, 66) 100%);
+   background-color: aqua !important;    
 }
 
 .body-music {
@@ -112,8 +113,8 @@ h1 {
     font-size: 45px;
     color: hsl(0, 0%, 100%);
     text-align: center;
-    letter-spacing: 5px;
-    position: relative;
+    letter-spacing: 2px;
+   
 
 }
 
@@ -469,12 +470,35 @@ nav {
 }
 
 .page-games {
-
     border-radius: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: justify;
     border-radius: 10px;
+}
+
+
+
+.page-games iframe {
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+
+#carouselExampleControls {
+    width: 70%;
+    justify-content: center;
+}
+
+.videoswrapper-games{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    
+}
+.videoswrapper-games1{
+    display: inline-flex;
+       
 }
 
 .top-section-games {
@@ -524,6 +548,11 @@ nav {
     margin-right: 10%;
     text-align: justify;
     border-radius: 10px;
+    
+}
+
+.a:hover{
+    border: solid;
 }
 
 .modeling {
@@ -558,6 +587,28 @@ nav {
 @media (max-width: 1500px) {
     .videoswrapper {
         display: block;
+    }
+}
+
+@media (max-width: 1500px) {
+    .videoswrapper-games {
+        display: block;
+    }
+}
+
+@media (max-width: 2560px) {
+    .page-videos {
+        display: block;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media (max-width: 1920px) {
+    .page-videos {
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
@@ -620,8 +671,8 @@ nav {
 @media (max-width: 1920px) {
     .page-games {
         display: block;
-        margin-left: 11%;
-        margin-right: 11%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
