@@ -20,9 +20,6 @@ aside {
     list-style-type: none;
 }
 
-
-
-
 body {
     padding-bottom: 120px;
     display: flex;
@@ -312,20 +309,20 @@ nav {
     margin-top: 40px;
     margin-left: -10%;
     margin-right: -10%;
-  
+
 }
 
-.list-group-item{
+.list-group-item {
     background-color: rgba(46, 45, 45, 0);
     color: rgb(255, 255, 255);
-   
- }
- 
- .list-group{
-     border-radius: 15px;
+
 }
 
- .h-home {
+.list-group {
+    border-radius: 15px;
+}
+
+.h-home {
     text-align: left;
     font-size: 25px;
     color: rgb(255, 255, 255);
@@ -334,7 +331,7 @@ nav {
     margin-left: 3%;
     margin-top: 50px;
     margin-bottom: 25px;
-} 
+}
 
 .page-home .rounded {
     border-radius: 20px !important;
@@ -349,7 +346,7 @@ nav {
 
 }
 
-.list-pc{
+.list-pc {
     margin-top: 1%;
     text-align: left;
 }
@@ -374,7 +371,7 @@ nav {
     display: flex;
     width: auto;
     justify-items: center;
-   
+
     margin-top: 30px;
     padding: 10px;
     border-radius: 20px;
@@ -498,7 +495,7 @@ nav {
     margin-left: 20px;
     margin-right: 70px;
     margin-top: 30px;
-    
+
 }
 
 .videoswrapper-facebook {
