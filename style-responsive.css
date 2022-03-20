@@ -1,3 +1,20 @@
+.buttons-small {
+    display:none;
+}
+
+@media (max-width: 460px) {
+    .buttons-small{
+        display: block;        
+    }
+}
+
+@media (max-width: 460px) {
+    .buttons{
+        display: none;        
+    }
+}
+
+
 @media (max-width: 1500px) {
     .videoswrapper {
         display: block;        
@@ -17,52 +34,40 @@
     }
 }
 
+@media (max-width: 900px) {
+.navbar-nav {
+        font-size: 1px !important;
+    }
+}
+
 @media (max-width: 2560px) {
-    .page-videos {
-        display: block;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-}
-
-@media (max-width: 1920px) {
-    .page-videos {
-        display: block;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
-
-
-@media (max-width: 1680px) {
-    .page-videos {
-        display: block;
-        margin-left: 7%;
-        margin-right: 7%;
-    }
-}
-
-
-@media (max-width: 1500px) {
-    .page-videos {
-       margin: 1px
-    }
-}
-
-
-
-@media (max-width: 1680px) {
     .US-iframe {
-        width: 1270px;
+        width: 1200px;
         height: 800px;
     }
 }
 
 
+@media (max-width: 1050px) {
+    .US-iframe {
+        width: 780px ;
+        height: 800px ;
+    }
+}
+
+@media (max-width:700px) {
+    .US-iframe {
+        width: 780px ;
+        height: 800px ;
+    }
+}
+
+
+
 @media (max-width: 450px) {
     .p-videos {
         display: block;
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
@@ -101,8 +106,8 @@
 @media (max-width: 712px) {
     .page-videos .US-iframe {      
         position: relative !important;
-        left: 12% !important;
-        width: 500px !important;
+        left: 10% !important;
+        width: 300px !important;
         height: 700px !important;
         padding: 0%;
     }
@@ -118,15 +123,6 @@
     }
 }
 
-@media (max-width: 412px) {
-    .page-videos .US-iframe {      
-        position: relative !important;
-        left: 6% !important;
-        width: 400px !important;
-        height: 700px !important;
-        padding: 0%;
-    }
-}
 
 @media (max-width: 300px) {
     .page-videos iframe {      
@@ -140,10 +136,10 @@
 
 @media (max-width: 300px) {
     .page-videos .US-iframe {      
-        position: relative !important;
-        left: 6% !important;
-        width: 300px !important;
-        height: 700px !important;
+        position: relative ;
+        left: 6% !;
+        width: 300px ;
+        height: 700px ;
         padding: 0%;
     }
 }
@@ -156,16 +152,6 @@
     }
 }
 
-
-@media (max-width: 2560px) {
-    .page-3dart {
-        display: block;
-        margin-left: 16%;
-        margin-right: 16%;
-    }
-}
-
-
 @media (max-width: 1500px) {
     .page-videos {
         justify-content: center;
@@ -173,6 +159,14 @@
     }
 }
 
+
+@media (max-width: 2560px) {
+    .page-3dart {
+        display: block;
+        margin-left: 23%;
+        margin-right: 22%;
+    }
+}
 
 @media (max-width: 1920px) {
     .page-3dart {
@@ -185,24 +179,40 @@
 @media (max-width: 2560px) {
     .page-music {
         display: block;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 27%;
+        margin-right: 27%;
     }
 }
 
 @media (max-width: 1920px) {
     .page-music {
         display: block;
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media (max-width: 2560px) {
+    .page-videos {
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 1920px) {
+    .page-videos {
+        display: block;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
 
 @media (max-width: 2560px) {
     .page-games {
         display: block;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
 }
 
@@ -329,8 +339,8 @@
 
 @media (max-width: 500px) {
     .btn-primary {
-        font-size: 15px !important;
-        border-radius: 1px !important;
+        font-size: 15px ;
+        border-radius: 1px ;
     }
 }
 

@@ -1,5 +1,16 @@
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
 html {
     scroll-behavior: smooth;
+
 }
 
 aside {
@@ -33,13 +44,17 @@ body {
     background: linear-gradient(180deg, rgb(53, 53, 53) 10%, rgb(19, 19, 19) 180%);
     margin: auto;
     padding-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .body-videos {
     margin: auto;
     width: 100%;
     padding-bottom: 120px;
-    
+   
     
     background: linear-gradient(180deg, rgb(53, 53, 53) 10%, rgb(19, 19, 19) 180%);
 }
@@ -225,18 +240,6 @@ div {
 footer {
     color: rgb(255, 123, 0);
     font-size: 25px;
-    position: absolute;
-    right: 0;
-    bottom: 1;
-    left: 0;
-}
-
-.header h {
-    font-size: 45px;
-    letter-spacing: 5px;
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
 }
 
 .navbar-nav h {
@@ -250,32 +253,6 @@ footer {
 .navbar-nav {
     font-size: 45px;
     background-color: rgb(42, 42, 42);
-
-}
-
-.header {
-    width: 100%;
-    background-color: rgb(65, 65, 65);
-    border-radius: 10px;
-    height: 140px;
-}
-
-.bottomheader h {
-    font-size: 20px;
-    letter-spacing: 5px;
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-}
-
-.bottomheader {
-    text-align: center;
-    height: 80px;
-    background-color: rgb(68, 68, 68);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 nav {
@@ -285,10 +262,11 @@ nav {
 .bg-primary {
     height: 100px;
     margin-top: 15px;
+    width: auto;
 }
 
 .page-home {
-    margin-top: 40px;
+
     margin-left: -10%;
     margin-right: -10%;
 }
@@ -375,6 +353,8 @@ nav {
     margin-right: 15%;
     text-align: justify;
 }
+
+
 
 .p-music {
     font-size: 25px;
