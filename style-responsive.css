@@ -1,13 +1,19 @@
 @media (max-width: 1500px) {
     .videoswrapper {
-        display: block;
-        
+        display: block;        
     }
 }
 
 @media (max-width: 1500px) {
     .videoswrapper-games {
         display: block;
+    }
+}
+
+@media (max-width: 412px) {
+    .videoswrapper {
+        display: block; 
+        width: 90% !important;      
     }
 }
 
@@ -28,15 +34,6 @@
 }
 
 
-
-@media (max-width: 1920px) {
-    .page-videos {
-        display: block;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
-
 @media (max-width: 1680px) {
     .page-videos {
         display: block;
@@ -46,14 +43,13 @@
 }
 
 
-
-
-@media (max-width: 450px) {
-    .p-videos {
-        display: block;
-        font-size: 10px;
+@media (max-width: 1500px) {
+    .page-videos {
+       margin: 1px
     }
 }
+
+
 
 @media (max-width: 1680px) {
     .US-iframe {
@@ -62,12 +58,69 @@
     }
 }
 
-@media (max-width: 740px) {
+
+@media (max-width: 450px) {
+    .p-videos {
+        display: block;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 910px) {
     .page-videos iframe {
-        width: 426px ;
-        height: 240px;
+        width: 512px ;
+        height: 288px;
         display: flex;
         align-items: center;
+    }
+}
+
+
+@media (max-width: 412px) {
+    .page-videos iframe {      
+        position: relative !important;
+        left: 6% !important;
+        width: 320px !important;
+        height: 288px !important;
+        padding: 0%;
+    }
+}
+
+@media (max-width: 412px) {
+    .page-videos .US-iframe {      
+        position: relative !important;
+        left: 6% !important;
+        width: 400px !important;
+        height: 700px !important;
+        padding: 0%;
+    }
+}
+
+@media (max-width: 300px) {
+    .page-videos iframe {      
+        position: relative !important;
+        left: 7% !important;
+        width: 300px !important;
+        height: 288px !important;
+
+    }
+}
+
+@media (max-width: 300px) {
+    .page-videos .US-iframe {      
+        position: relative !important;
+        left: 6% !important;
+        width: 300px !important;
+        height: 700px !important;
+        padding: 0%;
+    }
+}
+
+@media (max-width: 412px) {
+    .page-videos {
+        margin: 0,5px !important;
+        justify-content: center;  
+        zoom: 3fr;
     }
 }
 
@@ -81,28 +134,13 @@
 }
 
 
-
-
-
-@media (max-width: 412px) {
-    .page-videos iframe {
-        width: 40 !important;      
-
-    }
-}
-
-@media (max-width: 413px) {
-    .page-videos .navbar-nav {
-        width: 10px !important;
-    }
-}
-
 @media (max-width: 1500px) {
     .page-videos {
         justify-content: center;
         margin: 2px;
     }
 }
+
 
 @media (max-width: 1920px) {
     .page-3dart {
@@ -164,30 +202,11 @@
     }
 }
 
-@media (max-width: 360px) {
-    .videoswrapper {
-        display: block;
-        width: 290px;
-    }
-}
-
-@media (max-width: 1400px) {
-    .US-iframe {
-        display: block;
-        width: 900px !important;
-        height: 500px !important;
-        position: relative;
-        left: 5%;
-    }
-}
-
 @media (max-width: 2000px) {
     .home-table {
         display: block;
     }
 }
-
-
 
 @media (max-width: 1000px) {
     .games-videoswrapper {
@@ -195,19 +214,12 @@
     }
 }
 
-
-
-
-
-
 @media (max-width: 1500px) {
     .page-home {
         justify-content: center;
         margin: 1px;
     }
 }
-
-
 
 @media (max-width: 1000px) {
     .pagem-home .img {
@@ -245,12 +257,11 @@
 }
 
 
-@media (max-width: 400px) {
-    button {
+@media (max-width: 412px) {
+    .btn-primary {
         font-size: 10px;
-        letter-spacing: 2px;
-        padding: 3px;
-        border-radius: 5px;
+        padding: 1% !important;
+        width: 70px;
     }
 }
 
@@ -263,15 +274,13 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 412px) {
     .btn-primary {
-        font-size: 10px !important;
-        border-radius: 1px !important;
+        font-size: 10px;
+        padding: 10px;
+
     }
 }
-
-
-
 
 @media (max-width: 780px) {
     .p-home {
@@ -309,14 +318,6 @@
     }
 }
 
-@media (max-width: 910px) {
-    .page-videos iframe {
-        width: 512px !important;
-        height: 288px;
-        display: flex;
-        align-items: center;
-    }
-}
 
 
 
@@ -338,6 +339,13 @@
 
 @media (max-width: 780px) {
     h4 {
-        font-size: 15px;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 400px) {
+    .sidenav {
+        font-size: 8px;
+       
     }
 }
