@@ -72,9 +72,41 @@
         height: 288px;
         display: flex;
         align-items: center;
+        position: relative;
+        left: 20%;
     }
 }
 
+@media (max-width: 910px) {
+    .page-videos iframe {
+        width: 512px ;
+        height: 288px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 15%;
+    }
+}
+
+@media (max-width: 712px) {
+    .page-videos iframe {      
+        position: relative !important;
+        left: 10% !important;
+        width: 512px !important;
+        height:388px !important;
+        padding: 0%;
+    }
+}
+
+@media (max-width: 712px) {
+    .page-videos .US-iframe {      
+        position: relative !important;
+        left: 12% !important;
+        width: 500px !important;
+        height: 700px !important;
+        padding: 0%;
+    }
+}
 
 @media (max-width: 412px) {
     .page-videos iframe {      
