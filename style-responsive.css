@@ -209,6 +209,33 @@
 
     }
 }
+
+@media (max-width: 412px) {
+    footer {
+        height: 60px;
+    }
+}
+
+@media (max-width: 412px) {
+    .navbar-nav {
+        height: 100px;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .navbar-nav {
+        font-size: 10px;
+       
+
+    }
+}
+
+
 @media (max-width: 460px) {
     .page-videos .US-iframe {
         display: none;
@@ -518,6 +545,47 @@
     }
 }
 
+@media (max-width: 412px) {
+    .page-home {
+        justify-content: center;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 412px) {
+    .page-music {
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 412px) {
+    .page-games {
+        justify-content: center;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 412px) {
+    .page-3dart {
+        justify-content: center;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 412px) {
+    .page-videos {
+        justify-content: center;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 412px) {
+    .page-about {
+        justify-content: center;
+        margin-top: 100px;
+    }
+}
 
 @media (max-width: 412px) {
     .page-home img {
