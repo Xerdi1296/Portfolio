@@ -482,3 +482,36 @@
 
     }
 }
+
+@media (max-width: 1280px) {
+    .musicwrapper .row {
+        position: relative;
+        left: 5%;    
+
+    }
+}
+
+@media (max-width: 912px) {
+    .musicwrapper .row {
+        position: relative;
+        left: 1%;    
+
+    }
+}
+
+@media (max-width: 712px) {
+    .musicwrapper .row {
+        position: relative;
+        left: 0%;    
+
+    }
+}
+
+@media (max-width: 412px) {
+    .musicwrapper .row {
+        position: relative;
+        left: 1%;
+     
+
+    }
+}
