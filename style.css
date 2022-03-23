@@ -6,19 +6,33 @@
     right: 0;
     width: 100%;
     height: 100%;
-  }
+}
 
 html {
     scroll-behavior: smooth;
 
 }
 
+.goback{
+    position: relative;
+    left: 48%;
+    opacity: 10%;
+    color: white;
+    bottom: 15px;
+}
+
+.goback:hover{
+    opacity: 100%;
+    color: white;
+}
+
 aside {
     position: fixed;
     top: 50%;
     transform: translate(-50%, -50%);
-
+ 
 }
+
 
 .sidenav {
     font-size: 10px;
@@ -32,7 +46,7 @@ aside {
 }
 
 body {
-    
+
     padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
@@ -98,6 +112,7 @@ a {
     margin-left: 7px;
     line-height: 2;
     letter-spacing: 2;
+    text-decoration: none;
 }
 
 p {
@@ -128,11 +143,11 @@ button {
 }
 
 .btn-primary {
-    font-size: 27px;
-    background-color: rgb(36, 36, 36) !important;
+    font-size: 20px;
+    background-color: rgba(47, 47, 47, 0) !important;
     border-color: rgb(0, 0, 0) !important;
-    border-radius: 10px !important;
-    padding: 13x;
+    border-radius: 5px !important;
+    padding: 8px;
 }
 
 button:hover {
@@ -163,6 +178,7 @@ div {
 
 footer {
     font-size: 25px;
+
 }
 
 .navbar-nav h {
@@ -176,6 +192,7 @@ footer {
 .navbar-nav {
     font-size: 45px;
     background-color: rgb(42, 42, 42);
+    z-index: 1;
 }
 
 nav {
@@ -183,8 +200,9 @@ nav {
 }
 
 .bg-primary {
-    height: 100px;
+    height: 60px;
     margin-top: 15px;
+    margin-bottom: 35px;
     width: auto;
 }
 
@@ -234,7 +252,7 @@ nav {
     margin-bottom: 50px;
 }
 
-.Home-Gear{
+.Home-Gear {
     margin-top: 10px;
 
 }
@@ -250,11 +268,11 @@ nav {
 }
 
 
-.page .container-lg {   
+.page .container-lg {
     border-radius: 15px;
     background-color: rgba(17, 17, 17, 0.027);
-    
-     
+
+
 }
 
 
@@ -269,7 +287,7 @@ nav {
     text-align: justify;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 25px
+    margin-top: 25px;
 }
 
 .videoswrapper-facebook {
@@ -283,7 +301,7 @@ nav {
     justify-content: center;
 }
 
-.videoswrapper{
+.videoswrapper {
     display: flex;
     margin: auto;
     justify-content: center;
@@ -292,7 +310,7 @@ nav {
 }
 
 
-.musicwrapper{
+.musicwrapper {
     display: flex;
     margin: auto;
     justify-content: center;
@@ -300,7 +318,7 @@ nav {
     width: 90%;
 }
 
-.videoswrapper-facebook{
+.videoswrapper-facebook {
     display: flex;
     margin: auto;
     justify-content: center;
@@ -319,7 +337,7 @@ nav {
     margin-top: 25px;
 }
 
-.page  img {
+.page img {
     border-radius: 15px !important;
 }
 
@@ -357,4 +375,3 @@ nav {
     font-size: 20px;
     text-align: left;
 }
-
