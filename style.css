@@ -250,8 +250,11 @@ nav {
 }
 
 
-.page .container {   
-    border-radius: 20px;
+.page .container-lg {   
+    border-radius: 15px;
+    background-color: rgba(17, 17, 17, 0.027);
+    
+     
 }
 
 
