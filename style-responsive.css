@@ -254,14 +254,12 @@
 }
 
 
-
 @media (min-width: 461px) {
     .page .US-Link {
         display: none;
 
     }
 }
-
 
 @media (max-width: 300px) {
     .page iframe {
@@ -272,8 +270,6 @@
 
     }
 }
-
-
 
 @media (max-width: 412px) {
     .page {
@@ -292,7 +288,6 @@
 }
 
 
-
 @media (max-width: 960px) {
     .page {
         display: block;
@@ -300,8 +295,6 @@
         margin-right: 5% !important;
     }
 }
-
-
 
 
 @media (max-width: 1920px) {
