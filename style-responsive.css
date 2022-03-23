@@ -27,6 +27,7 @@
     }
 }
 
+
 @media (max-width: 1500px) {
     .videoswrapper-games {
         display: block;
@@ -82,7 +83,7 @@
 
 @media (max-width: 460px) {
     .page h4 {
-    
+
         font-size: 20px !important;
     }
 }
@@ -183,10 +184,10 @@
 
 @media (max-width: 412px) {
     .page iframe {
-        position: relative ;
+        position: relative;
         left: 7%;
-        width: 250px ;
-        height: 188px ;
+        width: 250px;
+        height: 188px;
     }
 }
 
@@ -484,7 +485,7 @@
 @media (max-width: 2560px) {
     .musicwrapper .row {
         position: relative;
-        left: 8%;    
+        left: 8%;
         width: 110%;
     }
 }
@@ -494,7 +495,7 @@
 @media (max-width: 1280px) {
     .musicwrapper .row {
         position: relative;
-        left: 3%;    
+        left: 6%;
     }
 }
 
@@ -502,27 +503,29 @@
 @media (max-width: 1024px) {
     .musicwrapper .row {
         position: relative;
-        left: 0%;    
+        left: 0%;
     }
 }
 
 @media (max-width: 912px) {
     .musicwrapper .row {
         position: relative;
-        left: 1%;    
+        left: 1%;
     }
 }
+
 @media (max-width: 768px) {
     .musicwrapper .row {
         position: relative;
-        left: 0%;          
+        left: 0%;
     }
 }
+
 @media (max-width: 712px) {
     .musicwrapper .row {
         position: relative;
-        left: 0%;    
-        
+        left: 0%;
+
     }
 }
 
@@ -535,20 +538,49 @@
 }
 
 @media (max-width: 412px) {
-    .musicwrapper iframe {    
-        width: 300px ;
-        height: 300px ;
+    .musicwrapper iframe {
+        width: 300px;
+        height: 300px;
         margin-bottom: 5%;
     }
 }
 
-#Goel {
-    margin-left: 1%;
-    margin-right: 6%
+@media (max-width: 360px) {
+    .musicwrapper iframe {
+        width: 200px !important;
+        height: 200px !important;
+        margin-bottom: 5%;
+    }
 }
 
-#Goel h4{
+@media (max-width: 360px) {
+    .musicwrapper .musicstream {
+        width: 200px !important;
+        height: 400px !important;
+        margin-bottom: 5% !important;
+    }
+}
+
+@media (max-width: 2560px) {
+    #Goel .row {
+        margin-right: 11%
+    }
+}
+
+@media (max-width: 1050px) {
+    #Goel .row {
+        margin-right: 0%
+    }
+}
+
+@media (max-width: 1050px) {
+    #Goel h4 {
+        position: relative;
+        right: 5%;
+    }
+}
+
+#Goel h4 {
     position: relative;
     right: 5%;
 }
-
