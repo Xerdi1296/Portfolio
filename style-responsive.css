@@ -5,6 +5,8 @@
 @media (max-width: 460px) {
     .buttons-small {
         display: block;
+        padding: 9px;
+       
     }
 }
 
@@ -221,6 +223,7 @@
         position: fixed;
         top: 0;
         z-index: 1000;
+
     }
 }
 
