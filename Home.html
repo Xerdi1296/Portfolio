@@ -10,6 +10,20 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-responsive.css">
+
+    <style>
+        .goback {
+            position: relative;
+            left: 0%;
+            top: 40px;
+        }
+
+        @media (max-width: 770px) {
+            .goback {
+                display: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -50,15 +64,11 @@
                 </li>
         </aside>
 
-
-
         <p style="border-bottom: 1px solid #888888; "></p>
 
-        <div class="container-lg shadow-sm">
-
+        <div class="container-lg shadow-md">
 
             <div class="page">
-
 
                 <section id="info-home">
                     <div class="container shadow-md">
@@ -113,16 +123,11 @@
             <br>
             <br>
             <p style="border-bottom: 1px solid #777777; padding-bottom: 20px; margin-bottom: 20px"></p>
-
-         
-
-
             <br>
             <br>
-
             <section id="mygear">
                 <div class="container-lg">
-                    <div class="wrapper-home shadow-lg">
+                    <div class="wrapper-home shadow-sm">
                         <div class="container">
                             <ul class="list-group list-group-flush">
                                 <h class="h-home">Audio Equipment</h>
@@ -213,6 +218,11 @@
 
             <p style="border-bottom: 1px solid #777777; padding-bottom: 5px; margin-bottom: 5px"></p>
             <div class="container">
+                <a class="goback" href="#Top"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                        fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+                    </svg></a>
                 <div class="row">
                     <div class="col-lg-1">
                         <a href="mailto:maciej.mikoda@gmail.com"><button type="button" class="btn btn-link"><img
@@ -227,12 +237,13 @@
                                 type="button" class="btn btn-link"><img class=" rounded shadow-md"
                                     style="width: 35px; height: 35px" src="icons/linkedin.ico"></button></a>
                     </div>
+
                 </div>
 
             </div>
 
             <footer class="bg-primary text-white text-center text-lg-start fixed-bottom">
-                <div class="text-center p-3" style="background-color: rgb(61, 61, 61) ">
+                <div class="text-center p-3">
                     <nav>
                         <a href="mailto:maciej.mikoda@gmail.com">Email</a>
                         <a href="https://soundcloud.com/future-films" target="_blank">Soundcloud</a>
@@ -242,6 +253,5 @@
                 </div>
             </footer>
 </body>
-
 
 </html>
