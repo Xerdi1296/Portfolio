@@ -1,3 +1,4 @@
+
 .buttons-small {
     display: none;
 }
@@ -607,3 +608,11 @@
     position: relative;
     right: 5%;
 }
+
+@media (max-width: 768px) {
+    .table-responsive-lg {
+        width: 100%;
+       
+    }
+}
+
