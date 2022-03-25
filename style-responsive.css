@@ -448,6 +448,24 @@
     }
 }
 
+@media (max-width: 780px) {
+    .p-home-main {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 780px) {
+    .p-home-main {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 780px) {
+    .home-href {
+        font-size: 15px;
+    }
+}
+
 
 @media (max-width: 500px) {
     .btn-primary {
