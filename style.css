@@ -315,11 +315,6 @@ nav {
     margin-top: 25px;
 }
 
-.videoswrapper-facebook {
-    display: flex;
-    justify-content: center;
-
-}
 
 #carouselExampleControls {
     width: 70%;
@@ -341,14 +336,23 @@ nav {
     justify-content: center;
     margin-bottom: 2%;
     width: 100%;
-
 }
+
 
 .videoswrapper-facebook {
     display: flex;
+    flex-direction: row;
     margin: auto;
     justify-content: center;
-    margin-bottom: 2%
+    margin-bottom: 2%;
+}
+
+.videoswrapper-facebook div {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2%;
+    justify-content: center;
+
 }
 
 .a:hover {
