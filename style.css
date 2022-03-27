@@ -198,9 +198,79 @@ div {
 }
 
 footer {
-    font-size: 25px;
+    font-size: 25px; 
+}
 
- 
+.switcher{
+    width: 100px;
+    position: relative;
+    left: 94%;
+}
+
+.bi{
+    color: white;
+    margin-bottom: 10%;
+}
+
+.switchbtn{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 25px;  
+    width:45px;
+    justify-content: center;     
+}
+
+.lightmode .bi{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10%;
+}
+
+.lightmode {
+    background-color: rgb(255, 255, 255);   
+}
+
+.lightmode .bi {
+    color: rgb(0, 0, 0);
+}
+
+.lightmode .p-home-main {
+    color: rgb(87, 86, 86);
+}
+.lightmode .p-home {
+    color: rgb(87, 86, 86);
+    font-style: normal;
+}
+
+.lightmode .p-main {
+    color: rgb(0, 0, 0);
+}
+
+.lightmode .page {
+    background-color: rgba(238, 238, 238, 0.575);
+    border-radius: 15px;
+    border-width: 5px;     
+    border: 1px solid rgba(0, 0, 0, 0.034);
+    
+}
+
+
+.lightmode .sidenav {
+    color: rgb(0, 0, 0);
+}
+
+.lightmode .h-tablehome {
+    color: rgb(121, 120, 120);
+}
+
+.lightmode .h-home {
+    color: rgb(87, 86, 86);
+}
+
+.lightmode h1 {
+    color: rgb(87, 86, 86);
+}
+
+.lightmode .list-group-item {
+    color: rgb(0, 0, 0);
 }
 
 .navbar-nav h {
@@ -211,7 +281,6 @@ footer {
     font-weight: bolder;
 }
 
-
 body {
     padding-bottom: 120px;
     display: flex;
@@ -220,6 +289,7 @@ body {
     flex-direction: column;
     /* background: linear-gradient(180deg, rgb(53, 53, 53) 10%, rgb(19, 19, 19) 180%); */
     background-color: rgb(32, 32, 32);
+    
 }
 
 /* .page .container-lg {
@@ -307,7 +377,7 @@ nav {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     margin-bottom: 50px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .Home-Gear {
@@ -448,9 +518,5 @@ nav {
     list-style-type: none;
     font-size: 20px;
     text-align: left;
-}
-
-#info-home{
-    margin-top: 45px;
 }
 

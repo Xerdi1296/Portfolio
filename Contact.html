@@ -44,7 +44,32 @@
 
 
     </div>
+    <script>
+        function myFunction() {
+            let element = document.body;
+            element.classList.toggle("lightmode");
 
+            if (element.classList.contains("lightmode")) {
+                //if class was added to body
+                localStorage.setItem("background", "lightmode");
+                //save information in "background" localStorage variable, use dark-mode class name
+            } else {
+                localStorage.setItem("background", "");
+                //if class was removed set background" localStorage variable to null
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function (event) {
+            //when loading document
+            let background = localStorage.getItem("background");
+            // get localStorage var background
+            if (background) {
+                // if its not null and empty
+                document.body.className += background;
+            }
+        });
+
+    </script>
     
 </div>
 
