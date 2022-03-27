@@ -214,11 +214,14 @@ footer {
 }
 
 .switchbtn {
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 25px;
-    width: 45px;
+    background-color: transparent;
     justify-content: center;
+    border-color: rgba(240, 248, 255, 0);
 }
+
+.switchbtn:hover {
+    background-color: rgba(255,255,255,0);
+    cursor: pointer;}
 
 .lightmode .bi {
     background-color: rgb(255, 255, 255);
@@ -330,8 +333,10 @@ body {
     font-size: 45px;
     background-color: rgb(36, 36, 36);
     z-index: 1;
+}
 
-
+.container{
+    bottom: 0%;
 }
 
 .text-center {
@@ -440,8 +445,6 @@ nav {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(255, 255, 255);
-
-
     text-decoration: underline;
 }
 
@@ -508,7 +511,6 @@ nav {
     display: inline-block;
     margin-top: -85px;
     width: auto;
-
 }
 
 .page .table-about th {
