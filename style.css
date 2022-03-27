@@ -1,13 +1,14 @@
-.reveal{
+.reveal {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
     transition: 2s all ease;
-  }
-  .reveal.active{
+}
+
+.reveal.active {
     transform: translateY(0);
     opacity: 1;
-  }
+}
 
 .responsive-iframe {
     position: absolute;
@@ -198,34 +199,34 @@ div {
 }
 
 footer {
-    font-size: 25px; 
+    font-size: 25px;
 }
 
-.switcher{
+.switcher {
     width: 100px;
     position: relative;
     left: 94%;
 }
 
-.bi{
+.bi {
     color: white;
     margin-bottom: 10%;
 }
 
-.switchbtn{
+.switchbtn {
     background-color: rgba(0, 0, 0, 0);
-    border-radius: 25px;  
-    width:45px;
-    justify-content: center;     
+    border-radius: 25px;
+    width: 45px;
+    justify-content: center;
 }
 
-.lightmode .bi{
+.lightmode .bi {
     background-color: rgb(255, 255, 255);
     margin-bottom: 10%;
 }
 
 .lightmode {
-    background-color: rgb(255, 255, 255);   
+    background-color: rgb(233, 232, 232);
 }
 
 .lightmode .bi {
@@ -235,6 +236,7 @@ footer {
 .lightmode .p-home-main {
     color: rgb(87, 86, 86);
 }
+
 .lightmode .p-home {
     color: rgb(87, 86, 86);
     font-style: normal;
@@ -245,16 +247,22 @@ footer {
 }
 
 .lightmode .page {
-    background-color: rgba(238, 238, 238, 0.575);
+    background-color: rgb(248, 248, 248);
     border-radius: 15px;
-    border-width: 5px;     
+    border-width: 5px;
     border: 1px solid rgba(0, 0, 0, 0.034);
-    
 }
-
 
 .lightmode .sidenav {
     color: rgb(0, 0, 0);
+}
+
+.lightmode .navbar-nav {
+    background-color: rgb(42, 42, 42);
+}
+
+.lightmode .navbar-nav a{
+    color: rgb(104, 104, 104);
 }
 
 .lightmode .h-tablehome {
@@ -270,6 +278,14 @@ footer {
 }
 
 .lightmode .list-group-item {
+    color: rgb(0, 0, 0);
+}
+
+.lightmode .list-group {
+    color: rgb(0, 0, 0);
+}
+
+.lightmode .th {
     color: rgb(0, 0, 0);
 }
 
@@ -289,7 +305,7 @@ body {
     flex-direction: column;
     /* background: linear-gradient(180deg, rgb(53, 53, 53) 10%, rgb(19, 19, 19) 180%); */
     background-color: rgb(32, 32, 32);
-    
+
 }
 
 /* .page .container-lg {
@@ -303,10 +319,10 @@ body {
     border-radius: 15px;
 }
 
-.container-home{
+.container-home {
     width: 110%;
     position: relative;
-    right:5%;
+    right: 5%;
     justify-content: center;
 }
 
@@ -315,7 +331,7 @@ body {
     background-color: rgb(36, 36, 36);
     z-index: 1;
 
- 
+
 }
 
 .text-center {
@@ -417,10 +433,10 @@ nav {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 25px;
-   
+
 }
 
-.home-href{
+.home-href {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(255, 255, 255);
@@ -519,4 +535,3 @@ nav {
     font-size: 20px;
     text-align: left;
 }
-
