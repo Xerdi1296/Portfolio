@@ -61,15 +61,30 @@
             element.classList.toggle("lightmode");
 
             if (element.classList.contains("lightmode")) {
+
                 localStorage.setItem("background", "lightmode");
+
             } else {
                 localStorage.setItem("background", "");
+
+            }
+
+            if (element.classList.contains("lightmode")) {
+
+                Window.localStorage.setItem("background", "");
+
+            } else {
+                Window.localStorage.setItem("background", "");
+
             }
         }
 
         document.addEventListener("DOMContentLoaded", function (event) {
+
             let background = localStorage.getItem("background");
+
             if (background) {
+
                 document.body.className += background;
             }
         });

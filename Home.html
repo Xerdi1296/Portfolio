@@ -73,26 +73,36 @@
             element.classList.toggle("lightmode");
 
             if (element.classList.contains("lightmode")) {
-         
+
                 localStorage.setItem("background", "lightmode");
-             
+
             } else {
                 localStorage.setItem("background", "");
-                
+
+            }
+
+            if (element.classList.contains("lightmode")) {
+
+                Window.localStorage.setItem("background", "");
+
+            } else {
+                Window.localStorage.setItem("background", "");
+
             }
         }
 
         document.addEventListener("DOMContentLoaded", function (event) {
-         
+
             let background = localStorage.getItem("background");
-        
+
             if (background) {
-              
+
                 document.body.className += background;
             }
         });
 
     </script>
+    
     <p style="border-bottom: 1px solid #888888; "></p>
 
     <div class="container-lg shadow-sm">
@@ -298,7 +308,7 @@
             <br>
 
             <p style="border-bottom: 1px solid #777777; padding-bottom: 5px; margin-bottom: 5px"></p>
-            
+
             <div class="container">
                 <a class="goback" href="#Top"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
                         fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
