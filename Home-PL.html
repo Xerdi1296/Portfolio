@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -8,174 +8,337 @@
     <title>PORTFOLIO</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style-pl.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-responsive.css">
+
+    <style>
+        .goback {
+            position: relative;
+            left: 0%;
+            top: 165px;
+        }
+
+        @media (max-width: 1050px) {
+            .goback {
+                display: none;
+            }
+        }
+    </style>
 </head>
 
-<body class="body-home">
-    <section id="info-home">
-        <nav class="navbar-nav">
-            <h5>PORTFOLIO</h5>
-            <div class="buttons">
-                <a href="Home-PL.html"><button type="button" class="btn btn-primary">Home</button></a>
-                <a href="Music.html"><button type="button" class="btn btn-primary">Muzyka</button></a>
-                <a href="Videos.html"><button type="button" class="btn btn-primary">Filmy</button></a>
-                <a href="Games.html"><button type="button" class="btn btn-primary">Gry</button></a>
-                <a href="3D Art.html"><button type="button" class="btn btn-primary">Grafika 3D</button></a>
-                <a href="About.html"><button type="button" class="btn btn-primary">O mnie</button></a>
-                <a href="Contact.html"><button type="button" class="btn btn-primary">Kontakt</button></a>
-                <a href="Home.html"><button type="button" class="btn btn-primary">English</button></a>
-            </div>
-        </nav>
+<body>
 
-        <aside>
-            <ul class="nodots">
-                <li>
-                    <a href="#info-home"><button class="sidenav">   </button></a>
-                </li>
-                <li>
-                    <a href="#mygear"><button class="sidenav">   </button></a>
-                </li>
-        </aside>
+    <nav class="navbar-nav">
+        <h5>PORTFOLIO</h5>
 
-        <p style="border-bottom: 1px solid #888888; "></p>
-
-        <div class="container">
+        <div class="buttons-small">
+            <a href="Home.html">Home</a>
+            <a href="Music.html">Music</a>
+            <a href="Videos.html">Videos</a>
+            <a href="Games.html">Sound Design</a>
+            <a href="3D Art.html">3D Art</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
         </div>
-        <div class="container">
-            <div class="page-home">
+
+        <div class="buttons">
+            <a href="Home.html"><button type="button" class="btn btn-primary">Home</button></a>
+            <a href="Music.html"><button type="button" class="btn btn-primary">Muzyka</button></a>
+            <a href="Videos.html"><button type="button" class="btn btn-primary">Filmy</button></a>
+            <a href="Games.html"><button type="button" class="btn btn-primary">Sound Design</button></a>
+            <a href="3D Art.html"><button type="button" class="btn btn-primary">3D</button></a>
+            <a href="About.html"><button type="button" class="btn btn-primary">O Mnie</button></a>
+            <a href="Contact.html"><button type="button" class="btn btn-primary">Kontakt</button></a>
+            <a class="language" href="Home-PL.html"><button class="btn btn-primary"><img
+                        src="icons/pl.png"></button></a>
+            <a class="language" href="Home.html"><button class="btn btn-primary"><img src="icons/eng.png"></button></a>
+            <a class="switchbtn" onclick="myFunction()" class="form-check-input" type="checkbox"
+                id="lightSwitch"><button class="btn btn-primary"> <svg xmlns="http://www.w3.org/2000/svg" width="25"
+                        height="25" fill="currentColor" class="bi bi-brightness-high" viewBox="0 0 16 16">
+                        <path
+                            d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                    </svg></button></a>
+        </div>
+    </nav>
+
+    <aside>
+        <ul class="nodots">
+            <li>
+                <a href="#info-home"><button class="sidenav">   </button></a>
+            </li>
+            <li>
+                <a href="#Services"><button class="sidenav">   </button></a>
+            </li>
+            <li>
+                <a href="#mygear"><button class="sidenav">   </button></a>
+            </li>
+    </aside>
+
+    <script>
+        function myFunction() {
+            let element = document.body;
+            element.classList.toggle("lightmode");
+
+            if (element.classList.contains("lightmode")) {
+
+                localStorage.setItem("background", "lightmode");
+
+            } else {
+                localStorage.setItem("background", "");
+
+            }
+
+            if (element.classList.contains("lightmode")) {
+
+                Window.localStorage.setItem("background", "");
+
+            } else {
+                Window.localStorage.setItem("background", "");
+
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function (event) {
+
+            let background = localStorage.getItem("background");
+
+            if (background) {
+
+                document.body.className += background;
+            }
+        });
+
+    </script>
+
+    <p style="border-bottom: 1px solid #888888; "></p>
+
+    <div class="container-lg shadow-sm">
+        <section id="info-home">
+            <div class="page">
+
+                <!-- <div class="switcher">
+                    <a class="switchbtn" onclick="myFunction()" class="form-check-input" type="checkbox"
+                        id="lightSwitch"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                            fill="currentColor" class="bi bi-brightness-high" viewBox="0 0 16 16">
+                            <path
+                                d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                        </svg></a>
+                </div> -->
+
                 <section id="info-home">
                     <div class="container shadow-md">
+
                         <h class="h-tablehome">Kilka słów o mnie</h>
                         <br>
                         <br>
-                        <div
-                            class="row justify-content-xxl-between justify-content-xl-between justify-content-lg-between justify-content-md-between justify-content-sm-between justify-content-between">
-                            <div class="col-xl-5 col-sm-5 col-md-7 col-lg-5 col-xs-4 d-flex align-items-center">
+                        <div class="row justify-content-xxl-between justify-content-sm-center">
+                            <div class="col-xl-4 col-sm-8 col-md-9 col-lg-5 col-xs-4 d-flex align-items-center">
 
-                                <img class="rounded shadow-md" style="width: 380px;" src="pictures/Ja.jpg">
+                                <img class="rounded shadow-lg" style="width: 380px;" src="pictures/Ja.jpg">
+                                <br>
+                                <br>
                             </div>
-                            <div class="col-lg-7 col-md-5 col-sm-8 col-xl-7  col-xs-9 d-flex align-items-center">
+
+                            <div class="col-lg-7 col-md-9 col-sm-8 col-xl-7 col-xs-9 d-flex align-items-center">
                                 <div class="hometext">
                                     <p class="p-home">
 
-                                        Nazywam się Maciej Mikoda i jestem sound designerem, montazystą i kompozytorem.
-                                        Ukończyłem Projektowanie Gier i Przestrzeni Wirtualnej na specjalności dźwięk w
-                                        grach na Uniwersytecie Śląskim w Cieszynie.
+                                        Nazywam się Maciej Mikoda i jestem sound designerem, kompozytorem oraz
+                                        montażystą filmowym. W 2020 roku ukończyłem Projektowanie Gier i Przestrzeni
+                                        Wirtualniej ze specjalnością dźwięk w grach na Uniwersytecie Śląskim w
+                                        Cieszynie.
+
+                                        <!-- My name is Maciej Mikoda and I am a sound designer, composer and video editor. I
+                                        am
+                                        a
+                                        graduate
+                                        of
+                                        University of Silesia in Cieszyn where I got an MA in video game sound design. -->
 
                                     <p class="p-home">
-                                        ​I have a huge passion for games, especially for audio and music which, I
+                                        Praca z dźwiękiem to moja pasja, którą rozwijam już od kilku lat poprzez pracę
+                                        nad różnymi projektami oraz komercyjnymi produkcjami.
+
+                                        <!-- ​I have a huge passion for games, especially for audio and music which, I
                                         developed
                                         over
                                         the years
                                         by
-                                        working on different projects both professionally and while I was in college.
+                                        working on different projects both professionally and while I was in college. -->
+
                                     <p class="p-home">
-                                       Na tej stronie znajdują się moje najlepsze prace związane z sound designem, montażem video i kompozycją muzyki. 
+                                        Na tej stronie umieściłem swoje najlepsze prace związane z sound designem,
+                                        kompozycją muzyki oraz montażem video.
+
+                                        <!-- In
+                                        this
+                                        website you
+                                        will
+                                        find my best works which I worked on as sound designer, composer and video
+                                        editor. -->
                                     </p>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+
+                </section>
+                <p style="border-bottom: 1px solid #777777; padding-bottom: 20px; margin-bottom: 20px"></p>
+                <section id="Services">
+
+
+                    <h1>Sound Design</h1>
+
+                    <div class="container-home">
+                        <p class="p-home-main">
+                            Moje dotychczasowe doświadczenie związane z sound designem obejmuję tworzenie oraz implementację muzyki i efektów dźwiękowych do ukończonej gry wydanej na Steamie, dwie ukończone prace artystyczne tworzone w ramach prac dyplomowych oraz inne projekty nad którymi pracowałem w ciągu ostatnich 7 lat. W przypadku każdego projektu staram się minimalizować wykorzystanie bibliotek audio a zamiast tego używać swoich własnych dźwięków, w celu utrzymania spójności i oryginalności sound designu w całym projekcie.
+
+
+
+                            <!-- My current experience as sound designer consists of creating and implemeting sounds for a
+                            released game on Steam, artistic works which were part of Batchelor's and Master's thesis
+                            and other projects which I worked on for last 7 years.
+                            For every project I try to minimise
+                            usage of audio
+                            libraries and use my own sounds to ensure originality of sound design throughout entire
+                            project. -->
+                        </p>
+
+                        <h1>Music</h1>
+
+                        <p class="p-home-main">
+                            For music composition I use FL Studio and Reaper if I create a score for videos.
+                            I have access to high quality libraries of virtual instruments of top brands such as
+                            East West and Native Instruments.
+                        </p>
+
+                        <h1>Video Editing</h1>
+
+                        <p class="p-home-main">
+                            My current experience in video editing consists of working on various projects. I have
+                            worked on trailers of YouTube channels, corporate videos, vlogs and compilation/music
+                            videos. My main video editing software is Davinci Resolve but I also have access to
+                            Adobe Premiere Pro.
+                        </p>
+
+                        <h1>3D Art</h1>
+
+                        <p class="p-home-main">
+                            I started creatig 3d models while I was in college and I've been developing my skills after
+                            I
+                            graduated. I mainly create 3d models in 3ds Max but I also know basics of Blender.
+                        </p>
+
+                    </div>
+                </section>
+                <p style="border-bottom: 1px solid #777777; padding-bottom: 20px; margin-bottom: 20px"></p>
+                <br><br>
+
+                <section id="mygear">
+                    <div class="container-sm">
+                        <div class="wrapper-home shadow-sm">
+                            <div class="container">
+                                <ul class="list-group list-group-flush">
+                                    <h class="h-home">Sprzęt Audio</h>
+                                    <p
+                                        style="border-bottom: 1px solid #777777; padding-bottom: 5px; margin-bottom: 5px">
+                                    </p>
+                                    <li class="list-group-item">
+                                        Zoom H4N Pro
+                                    </li>
+                                    <li class="list-group-item">
+                                        Rode NTG2
+                                    </li>
+                                    <li class="list-group-item">
+                                        AKG K702
+                                    </li>
+                                    <li class="list-group-item">
+                                        PreSonus Eris E5
+                                    </li>
+                                    <li class="list-group-item">
+                                        Behringer Uphoria UMC 204
+                                    </li>
+                                    <li class="list-group-item">
+                                        Behringer Xenyx 1202
+                                    </li>
+                                    <li class="list-group-item">
+                                        Novation Launchpad Mini
+                                    </li>
+                                    <li class="list-group-item">
+                                        Novation Launchcontrol XL
+                                    </li>
+                                    <li class="list-group-item">
+                                        Novation Launchkey 49
+                                    </li>
+                                    <li class="list-group-item">
+                                        Akai LPK 25
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="container">
+
+                                <ul class="list-group list-group-flush">
+                                    <h class="h-home">Oprogramowanie</h>
+                                    <p
+                                        style="border-bottom: 1px solid #777777; padding-bottom: 5px; margin-bottom: 5px">
+                                    </p>
+                                    <li class="list-group-item">
+                                        Vegas Pro 14
+                                    </li>
+                                    <li class="list-group-item">
+                                        Davinci Resolve
+                                    </li>
+                                    <li class="list-group-item">
+                                        Adobe Premiere Pro
+                                    </li>
+                                    <li class="list-group-item">
+                                        3ds Max
+                                    </li>
+                                    <li class="list-group-item">
+                                        FL Studio
+                                    </li>
+
+                                    <p
+                                        style="border-bottom: 1px solid #777777; padding-bottom: 0px; margin-bottom: 0px">
+                                    </p>
+
+                                    <div class="list-pc">
+                                        <h class="h-home">PC</h>
+
+                                        <li class="list-group-item">
+                                            CPU - Intel Core I7 12700K 3.6 GHz
+                                        </li>
+                                        <li class="list-group-item">
+                                            GPU - Nvidia RTX 3060 Vision 12GB OC
+                                        </li>
+                                        <li class="list-group-item">
+                                            RAM - Kingston Fury Beast 64GB 3600 Mhz
+                                        </li>
+                                        <li class="list-group-item">
+                                            SSD - Samsung 970 Evo Plus M.2 1TB
+                                        </li>
+
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
+                <p style="border-bottom: 1px solid #777777; padding-bottom: 5px; margin-bottom: 5px"></p>
 
             </div>
-            <br><br>
-            <p style="border-bottom: 1px solid #777777; padding-bottom: 20px; margin-bottom: 20px"></p>
+            <div class="cta">
+                <a class="goback" href="#Top"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                        fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+                    </svg></a>
 
-            <br>
-            <br>
-
-
-            <section id="mygear">
-                <h class="h-tablehome">Mój sprzęt</h>
-                <div class="wrapper-home">
-                    <div class="container">
-
-                        <ul class="list-group list-group-flush">
-                            <h class="h-home">Sprzęt Audio</h>
-                            <p style="border-bottom: 1px solid #777777; padding-bottom: 5px; margin-bottom: 5px"></p>
-                            <li class="list-group-item">
-                                Zoom H4N Pro
-                            </li>
-                            <li class="list-group-item">
-                                Rode NTG2
-                            </li>
-                            <li class="list-group-item">
-                                AKG K702
-                            </li>
-                            <li class="list-group-item">
-                                PreSonus Eris E5
-                            </li>
-                            <li class="list-group-item">
-                                Behringer Uphoria UMC 204
-                            </li>
-                            <li class="list-group-item">
-                                Behringer Xenyx 1202
-                            </li>
-                            <li class="list-group-item">
-                                Novation Launchpad Mini
-                            </li>
-                            <li class="list-group-item">
-                                Novation Launchcontrol XL
-                            </li>
-                            <li class="list-group-item">
-                                Novation Launchkey 49
-                            </li>
-                            <li class="list-group-item">
-                                Akai LPK 25
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="container">
-
-                        <ul class="list-group list-group-flush">
-                            <h class="h-home">Oprogramowanie</h>
-                            <p style="border-bottom: 1px solid #777777; padding-bottom: 5px; margin-bottom: 5px"></p>
-                            <li class="list-group-item">
-                                Vegas Pro 14
-                            </li>
-                            <li class="list-group-item">
-                                Davinci Resolve
-                            </li>
-                            <li class="list-group-item">
-                                Adobe Premiere Pro
-                            </li>
-                            <li class="list-group-item">
-                                3ds Max
-                            </li>
-                            <li class="list-group-item">
-                                FL Studio
-                            </li>
-
-                            <p style="border-bottom: 1px solid #777777; padding-bottom: 0px; margin-bottom: 0px"></p>
-
-                            <div class="list-pc">
-                                <h class="h-home">PC</h>
-
-                                <li class="list-group-item">
-                                    CPU - Intel Core I7 12700K 3.6 GHz
-                                </li>
-                                <li class="list-group-item">
-                                    GPU - Nvidia RTX 3060 Vision 12GB OC
-                                </li>
-                                <li class="list-group-item">
-                                    RAM - Kingston Fury Beast 64GB 3600 Mhz
-                                </li>
-                                <li class="list-group-item">
-                                    SSD - Samsung 970 Evo Plus M.2 1TB
-                                </li>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <br>
-
-            <p style="border-bottom: 1px solid #777777; padding-bottom: 5px; margin-bottom: 5px"></p>
-            <div class="container">
                 <div class="row">
                     <div class="col-lg-1">
                         <a href="mailto:maciej.mikoda@gmail.com"><button type="button" class="btn btn-link"><img
@@ -191,12 +354,10 @@
                                     style="width: 35px; height: 35px" src="icons/linkedin.ico"></button></a>
                     </div>
                 </div>
-
             </div>
 
-
             <footer class="bg-primary text-white text-center text-lg-start fixed-bottom">
-                <div class="text-center p-3" style="background-color: rgb(53, 52, 52)">
+                <div class="text-center p-3">
                     <nav>
                         <a href="mailto:maciej.mikoda@gmail.com">Email</a>
                         <a href="https://soundcloud.com/future-films" target="_blank">Soundcloud</a>
@@ -205,6 +366,7 @@
                     Portfolio by Maciej Mikoda 2022
                 </div>
             </footer>
+
 </body>
 
 </html>

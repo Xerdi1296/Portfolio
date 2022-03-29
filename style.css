@@ -166,7 +166,7 @@ button {
 
 .btn-primary {
     font-size: 20px;
-    background-color: rgba(47, 47, 47, 0) !important;
+    background-color: rgb(41, 40, 40) !important;
     border-color: rgb(0, 0, 0) !important;
     border-radius: 5px !important;
     padding: 8px;
@@ -202,6 +202,12 @@ footer {
     font-size: 25px;
 }
 
+.language img{
+    position: relative;
+    bottom: 2px;
+    width: 20px;       
+}
+
 .switcher {
     width: 100px;
     position: relative;
@@ -215,26 +221,25 @@ footer {
 
 .switchbtn {
     background-color: transparent;
-    justify-content: center;
-    border-color: rgba(240, 248, 255, 0);
+ 
+
 }
 
 .switchbtn:hover {
-    background-color: rgba(255,255,255,0);
-    cursor: pointer;}
+    cursor: pointer;
+}
+
 
 .lightmode .bi {
-    background-color: rgb(255, 255, 255);
     margin-bottom: 10%;
+    color: white;
+
 }
 
 .lightmode {
     background-color: rgb(233, 232, 232);
 }
 
-.lightmode .bi {
-    color: rgb(0, 0, 0);
-}
 
 .lightmode .p-home-main {
     color: rgb(87, 86, 86);
@@ -251,9 +256,6 @@ footer {
 
 .lightmode .page {
     background-color: rgb(248, 248, 248);
-    border-radius: 15px;
-    border-width: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.034);
 }
 
 .lightmode .sidenav {
@@ -307,7 +309,7 @@ body {
     justify-content: center;
     flex-direction: column;
     /* background: linear-gradient(180deg, rgb(53, 53, 53) 10%, rgb(19, 19, 19) 180%); */
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(46, 46, 46);
 
 }
 
@@ -536,4 +538,19 @@ nav {
     list-style-type: none;
     font-size: 20px;
     text-align: left;
+}
+
+#info-home{
+    margin-top: 3%;
+   
+}
+
+.pictures .thumbnail{
+    margin-bottom: 2%;
+}
+
+.cta{
+    height: 100px;
+    position: relative;
+    bottom: 120px;    
 }

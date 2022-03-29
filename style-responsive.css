@@ -644,3 +644,17 @@
     }
 }
 
+@media (max-width: 768px) {
+    .switchbtn {
+        position: relative;       
+       
+    }
+}
+
+@media (max-width: 768px) {
+    .cta {
+        position: relative;
+        bottom: 0px;                  
+    }
+}
+
